@@ -1,0 +1,23 @@
+# Ignore log files
+*.log
+
+# Ignore temporary/backup files
+*~
+*.swp
+*.bak
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore SSH or mail credentials if stored separately (optional)
+secrets.env
+
+# Ignore compiled or temporary files (just in case)
+*.out
+*.tmp
+
+# Ignore system files on Windows
+ehthumbs.db
+Icon?
